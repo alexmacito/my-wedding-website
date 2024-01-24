@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    gap: 15px;
+}
+
+section {
+    margin: auto;
+}
+
+#rsvp {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    background-color: aquamarine;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+  }
+
+.form-name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+input, textarea {
+    padding: 15px;
+    border-radius: 3px;
+  }
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+.cta {
+    display: inline-block;
+    background: ;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin-bottom: 80px;
+  }
+
+.cta:hover {
+    text-decoration: none;
+    background: fixed;
+  }
