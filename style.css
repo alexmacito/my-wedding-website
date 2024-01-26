@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+  font-family: 'Montserrat';
+}
+
 header,
 footer {
     background-color: white;
@@ -13,6 +17,10 @@ nav, footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+footer p, nav p {
+  color: #D2B48C;
 }
 
 a {
@@ -42,7 +50,8 @@ h1 {
   font-size: 40px;
   line-height: 1em;
   letter-spacing: 1px;
-  color: wheat
+  color: wheat;
+  font-family: 'Oswald'; 
 }
 
 p {
@@ -62,16 +71,17 @@ p {
 }
 
 #rsvp div:first-of-type {
-  padding: 30px;
+  padding: 30px 120px;
   background-color: rgba(0,0,0,0.4);
   color: wheat
 }
 
 .section-date h1 {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .section-date p {
+  font-family: 'Marck Script';
   font-size: 50px;
   color: black;
 }
@@ -86,8 +96,12 @@ p {
 }
 
 #details div:first-of-type {
-  padding: 30px;
+  padding: 30px 120px;
   background-color: rgba(0,0,0,0.4);
+}
+
+#travel div:first-of-type {
+  padding: 30px 120px;
 }
 
 #registry {
@@ -99,8 +113,12 @@ p {
 }
 
 #registry div:first-of-type {
-  padding: 30px;
+  padding: 30px 120px;
   background-color: rgba(0,0,0,0.4);
+}
+
+.section-contact, h1 p {
+  padding: 30px 120px;
 }
 
 form {
@@ -109,6 +127,7 @@ form {
     max-width: 900px;
     margin: auto;
     padding: 50px;
+    color: wheat;
   }
 
 .form-name-email {
@@ -127,6 +146,7 @@ form {
 input, textarea {
     padding: 15px;
     border-radius: 3px;
+    border: none;
   }
 
 input[type='submit'] {
@@ -135,14 +155,55 @@ input[type='submit'] {
     margin-top: 30px;
   }
 
+ /* input[type='text']:focus {
+  border-color: wheat;
+} */
+
 .cta {
     display: inline-block;
     border-radius: 50px;
     padding: 20px 30px;
     margin-bottom: 80px;
+    color: #D2B48C;
   }
 
 .cta:hover {
     text-decoration: none;
-    background: fixed;
+    background: rgba(0,0,0,0.1);
   }
+
+@media screen and (max-width: 996px) {
+  .form-name-email {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  input {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #rsvp div:first-of-type {
+    padding: 30px;
+    background-color: rgba(0,0,0,0.4);
+    color: wheat
+  }
+
+  #details div:first-of-type {
+    padding: 30px;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  #travel div:first-of-type {
+    padding: 30px;
+  }
+
+  #registry div:first-of-type {
+    padding: 30px;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .section-contact, h1 p {
+    padding: 30px;
+  }
+}
