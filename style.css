@@ -9,7 +9,7 @@ body {
 header,
 footer {
     background-color: white;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 nav, footer {
@@ -63,7 +63,7 @@ p {
 }
 
 #rsvp {
-    background-image: url(image/lemons.png);
+    background-image: url(image/index.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -71,7 +71,7 @@ p {
 }
 
 #rsvp div:first-of-type {
-  padding: 30px 120px;
+  padding: 120px 120px;
   background-color: rgba(0,0,0,0.4);
   color: wheat
 }
@@ -96,16 +96,25 @@ p {
 }
 
 #details div:first-of-type {
-  padding: 30px 120px;
+  padding: 120px 120px;
   background-color: rgba(0,0,0,0.4);
 }
 
+#details a {
+  font-size: 20px;
+  line-height: 1.50em;
+  letter-spacing: 0px;
+  color: wheat;
+  margin: 0;
+  text-decoration: underline;
+}
+
 #travel div:first-of-type {
-  padding: 30px 120px;
+  padding: 120px 120px;
 }
 
 #registry {
-  background-image: url(image/vintage-van.png);
+  background-image: url(image/lemons.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -113,12 +122,12 @@ p {
 }
 
 #registry div:first-of-type {
-  padding: 30px 120px;
+  padding: 120px 120px;
   background-color: rgba(0,0,0,0.4);
 }
 
 .section-contact, h1 p {
-  padding: 30px 120px;
+  padding: 120px 120px;
 }
 
 form {
