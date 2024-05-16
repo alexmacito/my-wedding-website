@@ -113,6 +113,10 @@ p {
   padding: 120px 120px;
 }
 
+.section-travel p {
+  color: black;
+}
+
 #registry {
   background-image: url(image/lemons.png);
   background-repeat: no-repeat;
@@ -128,6 +132,10 @@ p {
 
 .section-contact, h1 p {
   padding: 120px 120px;
+}
+
+.section-contact p {
+  color: black;
 }
 
 form {
@@ -214,5 +222,41 @@ input[type='submit'] {
   
   .section-contact, h1 p {
     padding: 30px;
+  }
+
+  footer {
+    padding: 0%;
+  }
+
+  /*.logo {
+    height: 100px;
+    width: 100px;
+  } */
+
+  #rsvp {
+    background-image: url(image/index.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+  }
+
+  #details {
+    background-image: url(image/sicily.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+  }
+
+  #registry {
+    background-image: url(image/lemons.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
   }
 }
