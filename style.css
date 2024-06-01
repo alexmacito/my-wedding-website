@@ -113,7 +113,7 @@ p {
 }
 
 #rsvp {
-    background-image: url(/image/index.png);
+    background-image: url(./image/index.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -138,7 +138,7 @@ p {
 
 
 #details {
-  background-image: url(/image/sicily.png);
+  background-image: url(./image/sicily.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -168,7 +168,7 @@ p {
 }
 
 #registry {
-  background-image: url(/image/lemons.png);
+  background-image: url(./image/lemons.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -295,7 +295,7 @@ label {
   } */
 
   #rsvp {
-    background-image: url(/image/index.png);
+    background-image: url(./image/index.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -304,7 +304,7 @@ label {
   }
 
   #details {
-    background-image: url(/image/sicily.png);
+    background-image: url(./image/sicily.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -313,7 +313,7 @@ label {
   }
 
   #registry {
-    background-image: url(/image/lemons.png);
+    background-image: url(./image/lemons.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
